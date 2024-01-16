@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .box {
@@ -19,7 +20,7 @@
   height: 30px;
 }
 
-.counter-total{
+.counter-total {
   margin-left: 20px;
   margin-right: 20px;
 }
