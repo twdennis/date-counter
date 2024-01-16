@@ -24,3 +24,13 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
