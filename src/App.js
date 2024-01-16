@@ -55,7 +55,7 @@ function DateCounter() {
               {count === 0
                 ? `Today's date is `
                 : count === 1
-                ? `Tomorrow is`
+                ? `Tomorrow is `
                 : count === -1
                 ? `Yesterday was `
                 : count < -1
@@ -64,9 +64,11 @@ function DateCounter() {
             </span>
             <span>{date.toDateString()}</span>
           </p>
-          <div className="button-container">
-            <button onClick={handleReset}>RESET</button>
-          </div>
+          {count !== 0 || interval !== 1 ? (
+            <div className="button-container">
+              <button onClick={handleReset}>RESET</button>
+            </div>
+          ) : null}
         </div>
       </div>
     </div>
