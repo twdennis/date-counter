@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.counter-div {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+}
+
+.counter-total{
+  margin-left: 20px;
+  margin-right: 20px;
+}
